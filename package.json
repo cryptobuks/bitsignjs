@@ -1,0 +1,19 @@
+{
+  "name": "bitsignjs",
+  "version": "0.1.0",
+  "description": "Client side lib for interact with bitsign",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cryptol0g1c/bitsignjs.git"
+  },
+  "author": "Cryptologic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cryptol0g1c/bitsignjs/issues"
+  },
+  "homepage": "https://github.com/cryptol0g1c/bitsignjs#readme"
+}
