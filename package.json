@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/cryptol0g1c/bitsignjs/issues"
   },
-  "homepage": "https://github.com/cryptol0g1c/bitsignjs#readme"
+  "homepage": "https://github.com/cryptol0g1c/bitsignjs#readme",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "node-fetch": "^1.7.3"
+  }
 }
