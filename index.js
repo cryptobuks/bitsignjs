@@ -1,5 +1,7 @@
-const bitsignjs = require('./lib/index');
+const init = require('./lib/index');
+const sendRawTx = require('./lib/sendRawTx');
 
 module.exports = {
-  init: bitsignjs
+  init,
+  sendRawTx
 };
