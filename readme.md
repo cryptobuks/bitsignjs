@@ -1,6 +1,6 @@
 # Bitsignjs
 
-  Client side library for [bitsign](http://www.bitsign.io). For further information please go to the [documentation](https://bitsign.docs.apiary.io)
+  Client side library for [bitsign](http://www.bitsign.io). For further information please go to the [documentation](https://bitsign.docs.apiary.io).
 
 ## APIS
 First of all you must instanciate the api with your token:
