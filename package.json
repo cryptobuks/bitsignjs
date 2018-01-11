@@ -1,6 +1,6 @@
 {
   "name": "bitsignjs",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Client side lib for interact with bitsign",
   "main": "index.js",
   "scripts": {
