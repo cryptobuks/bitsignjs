@@ -1,4 +1,7 @@
 # Bitsignjs
+
+  ![Bitsign](https://bitsign.io/img/logos/logo.png "Bitsign Logo")
+
   Client side library for [bitsign](http://www.bitsign.io). For further information please go to the [documentation](https://bitsign.docs.apiary.io).
 
 ## APIS
