@@ -1,7 +1,8 @@
 const init = require('./lib/index');
-const sendRawTx = require('./lib/sendRawTx');
+const rawTx = require('./lib/rawTx');
 
 module.exports = {
   init,
-  sendRawTx
+  sendRawTx: rawTx.sendRawTx,
+  createRawTx: rawTx.createRawTx
 };
