@@ -3,6 +3,6 @@ const rawTx = require('./lib/rawTx');
 
 module.exports = {
   init,
-  sendRawTx: rawTx.sendRawTx,
-  createRawTx: rawTx.createRawTx
+  createRawTx: rawTx.createRawTx,
+  signedRawTx: rawTx.signedRawTx
 };

@@ -96,10 +96,10 @@ You must send:
   }).then(signedTx => console.log(signedTx))
 ```
 
-#### bitsignjs.sendRawTx
+#### bitsignjs.signedRawTx
 
 ```
   const bitsignjs = require('bitsignjs');
 
-  bitsignjs.sendRawTx(signedTx).then(data => console.log(data))
+  bitsignjs.signedRawTx(signedTx).then(data => console.log(data))
 ```
