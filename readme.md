@@ -4,15 +4,21 @@
 
 Library for [bitsign](http://www.bitsign.io). For further information please go to the [documentation](https://bitsign.docs.apiary.io).
 
+Bitsignjs its a library that lets you interact easily with [BitSign Federation](https://stats.bitsign.io) blockchain to create notary transactions, deploy smart contracts, make calls and ejecute state changer contracts functions.
+
 ## APIS
-First of all you must instanciate the api with your token:
-```
-  const bitsignjs = require('bitsignjs');
+To begin using our library you must instanciate the library with your token. To create your access token you can click [this](https://bitsign.docs.apiary.io/#reference/0/user-endpoints/new-user) link.
 
-  let api = bitsignjs.init(<your_token>);
+```
+const bitsignjs = require('bitsignjs');
+
+let api = bitsignjs.init(<your_token>);
 ```
 
-### contracts
+### Smart Contracts
+To create, deploy and interact with Smart Contrat we have several methods that connect with our webservice endpoints.
+
+If you want to deploy a new contract you can use the endpoint **deploy** as shown below. For more information you can check our official documentation [here](https://bitsign.readthedocs.io/en/latest/)
 #### api.contracts.deploy
 
 ```
