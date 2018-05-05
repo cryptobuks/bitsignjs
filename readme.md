@@ -81,6 +81,13 @@ If you want to deploy a new contract you can use the endpoint **deploy** as show
   }).then(data => console.log(data))
 ```
 
+#### api.transactions.executed
+
+```
+  api.transactions.notarizeTx().then(data => console.log(data))
+  api.transactions.notarizeTx('0x...').then(data => console.log(data))
+```
+
 ## RawTx
 In order to use create and/or send a raw tx you don't need to init the library or pass the token.
 
