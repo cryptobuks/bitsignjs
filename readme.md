@@ -1,7 +1,5 @@
 # Bitsignjs
 
-![Bitsign](https://bitsign.io/img/logos/logo.png "Bitsign Logo")
-
 Library for [bitsign](http://www.bitsign.io). For further information please go to the [documentation](https://bitsign.docs.apiary.io).
 
 Bitsignjs its a library that lets you interact easily with [BitSign Federation](https://stats.bitsign.io) blockchain to create notary transactions, deploy smart contracts, make calls and ejecute state changer contracts functions.
